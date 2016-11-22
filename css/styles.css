@@ -40,10 +40,13 @@ img {
 }
 
 a {
-	color: rgb(0,204,255);
 	text-decoration: none;
 }
 
+.card a{
+	color: black;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
 a:hover, a:focus {
 	color: rgba(255,255,255,0.6);
 	text-decoration: none;
@@ -210,4 +213,70 @@ footer {
 .navbar-inverse .navbar-nav > .active > a:hover {
 	background: none;
 	color: #f00000;
+}
+
+
+/*************************************
+Bootstrap CSS for Cards
+*************************************/
+.card {
+	margin-top: none;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+  position: top;
+  vertical-align: top;
+  display: inline-block;
+  border: 1px solid black;
+  width: 230px;
+  height: 300px;
+  color: white;
+}
+
+#g1{
+	background: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRY-AzG3VQOcRDLA_ZcxqiFCwUBWZhutPKfbHXukivzWzfkv08YOw);
+	background-size: cover;
+}
+
+#g2{
+	background: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQOnJcklgiyKP4GnMG21dJT_NMQe_W8WlJkQ4csWrX7LA2N097zGA);
+	background-size: cover;
+}
+
+#g3{
+	background: url(data:image/png;base64,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);
+	background-size: cover;
+}
+
+#g4{
+	background: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSc8nC8HXLO2z2L5F8UY-9hB8-ZKIPkgfYoCtxiZAqp76_TO3cs);
+	background-size: cover;
+}
+
+.card-block {
+  padding: 1.25rem;
+}
+
+.card-block::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card-title {
+  margin-bottom: 0.75rem;
+  color: #ffcb05;
+	text-shadow: -1px 0 #0071b9, 0 1px #0071b9, 1px 0 #0071b9, 0 -1px #0071b9;
+}
+
+.card-subtitle {
+  margin-top: -0.375rem;
+  margin-bottom: 0;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+.card-link {
+	vertical-align: bottom;
 }

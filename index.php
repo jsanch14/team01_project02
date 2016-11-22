@@ -14,37 +14,57 @@
 			
 			<p>All of the licensed Pokémon properties overseen by The Pokémon Company are divided roughly by generation. These generations are roughly chronological divisions by release; when an official sequel in the main role-playing game series is released that features new Pokémon, characters, and gameplay concepts, that sequel is considered the start of a new generation of the franchise. The main games and their spin-offs, the anime, manga and trading card game are all updated with the new Pokémon properties each time a new generation begins. The franchise began its sixth generation with Pokémon X and Y, which were released worldwide on October 12, 2013.</p>
 
-			<h3>Generations I-II</h3>
+			<div class="cards">
+			<div class="card" id="g1">
+  				<div class="card-block">
+    				<h3 class="card-title">Generations I-II</h3>
+    				<h6 class="card-subtitle text-muted">The First Generations</h6>
+  				</div>
+  				<div class="card-block">
+    				<p class="card-text">The first generation of games introduced the basic game concepts of capturing, training, battling and trading Pokémon with both computer and human players.</p>
+    				<a class="card-link" href="gen_1-2.php">Read more ></a>
+  				</div>
+			</div>
+
+
+			<div class="card" id="g2">
+  				<div class="card-block">
+    				<h3 class="card-title">Generations III-IV</h3>
+    				<h6 class="card-subtitle text-muted">The New Age of Graphics</h6>
+  				</div>
+  				<div class="card-block">
+    				<p class="card-text">Both generations introduced new innovations to graphics design, as well as new features and additional Pokemon.</p>
+    				<a class="card-link" href="gen_3-4.php">Read more ></a>
+  				</div>
+			</div>
+
 			
-			<p>The first generation of games introduced the original 151 species of Pokémon (in National Pokédex order, encompassing all Pokémon from Bulbasaur to Mew), as well as the basic game concepts of capturing, training, battling and trading Pokémon with both computer and human players.</p>
 
-			<p>The second generation of Pokémon video games began in 1999 with the Japanese release of Pokémon Gold and Silver for the Game Boy Color, with Australia and North America getting the game in October 2000 and European release date of April 2001. Like the previous generation, an enhanced version titled Pokémon Crystal was later released.</p>
+			<div class="card" id="g3">
+  				<div class="card-block">
+    				<h3 class="card-title">Generations V-VII</h3>
+    				<h6 class="card-subtitle text-muted">Expansion and a New Era</h6>
+  				</div>
+  				<div class="card-block">
+    				<p class="card-text">All three generations added additional Pokemon and took advantage of new technologies to expand the universe</p>
+    				<a class="card-link" href="gen_5-7.php">Read more ></a>
+  				</div>
+			</div>
 
-			<a href="gen_1-2.php">Read more ></a>
 
-			<h3>Generations III-IV</h3>
 			
-			<p>The third generation introduced 135 new Pokémon (starting with Treecko and ending with Deoxys) for a total of 386 species. It also features a more visually detailed environment compared to previous games, "natures" which affect Pokémon stats, a new 2-on-2 Pokémon battling mechanic, a special ability system applying to each Pokémon in battle, the Pokémon Contest sub-game, the new region of Hoenn, and the ability to select the protagonist's gender.</p>
+			<div class="card" id="g4">
+  				<div class="card-block">
+    				<h3 class="card-title">Colophon</h3>
+    				<h6 class="card-subtitle text-muted">Who we are</h6>
+  				</div>
+  				<div class="card-block">
+    				<p class="card-text">Meet the design teams behind the website</p>
+    				<a class="card-link" href="colophon.php">Read more ></a>
+  				</div>
+			</div>
 
-			<p>The fourth generation introduces another 107 new species of Pokémon (starting with Turtwig and ending with Arceus), bringing the number of Pokémon species to 493. This generation is the first to have 3D graphics in a main series game, although it is still a mixture of both 3D graphics and sprites.</p>
-
-			<a href="gen_3-4.php">Read more ></a>
-
-			<h3>Generations V-VII</h3>
-			
-			<p>The fifth generation introduced a total of 156 new Pokémon (beginning with Victini and ending with Genesect), the most of any generation. It was also the first generation where the first new Pokémon in National Pokédex order (Victini) is not a starter. It also introduced another new feature, the seasons, from which two Pokémon (Deerling and Sawsbuck) represent them.</p>
-
-			<p>The sixth generation introduced a total of 72 new Pokémon, the new Fairy type, Mega Evolution, the Kalos region, Trainer customization, Super Training, and three new battle modes: Sky Battles, Horde Encounters, and Inverse Battle. This generation is also the first to be compatible with Pokémon Bank.</p>
-
-			<p>During a Nintendo Direct presentation on February 26, 2016, two new Pokémon titles were announced: Pokémon Sun and Moon. The first installments in the seventh generation of Pokémon games, they are set to be released on 18 November 2016. The games will be compatible with other Nintendo 3DS titles, including Pokémon X and Y; Pokémon Omega Ruby and Alpha Sapphire; and the Virtual Console re-releases of Pokémon Red, Blue, and Yellow.</p>
-
-			<a href="gen_5-7.php">Read more ></a>
-
-			<h3>Colophon</h3>
-			
-			<p>Information on what we do, who we are, technologies used and source cited.</p>
-
-			<a href="colophon.php">Read more ></a>
+			</div>
 
 		</article>
 
