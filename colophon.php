@@ -33,7 +33,9 @@
 				<li>Built on Bootstrap framework</li>
 				<li>Based on SMACSS (Scalable and Modular Architecture for CSS), with <a href="https://necolas.github.io/normalize.css/">"normalize.css"</a></li>
 				<li>Overridden Bootstrap CSS with custom CSS in "styles.css"</li>
-				<li>Embedded a JavaScript-powered slideshow, using <a href="http://supersimpleslider.com/">SSS (Super Simple Slider)</a></li>
+			<!--	<li>Embedded a JavaScript-powered slideshow, using <a href="http://supersimpleslider.com/">SSS (Super Simple Slider)</a></li>
+-->
+				<li>Embedded a JavaScript-powered slideshow with Bootstrap </li>
 				<li>Employed the use of PHP includes</li>
 				<li>Worked with <a href="https://github.com/mchen37/project1-team7">a shared repository on Github</a></li>
 				<li>Employed a solution for the current menu highlight problem</li>

@@ -7,7 +7,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/slider.css">
+		<!-- <link rel="stylesheet" href="css/slider.css">
+		Not used anymore, left in for reference
+		-->
 		<link rel="stylesheet" href="css/fonts.css">
 		<link rel="stylesheet" href="css/styles.css">
 
