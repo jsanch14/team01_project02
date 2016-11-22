@@ -1,6 +1,6 @@
 <?php $parentTitle = "Pokémon Generations"; include "inc/top.inc";?>
 		
-		<?php include "inc/nav.inc";?>
+		
 		
 				<div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
@@ -24,7 +24,6 @@
 
     <div class="item">
       <img src="images/poke3.png" alt="poke">
-      
 
     
   </div>
@@ -39,6 +38,9 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+
+
+<?php include "inc/nav.inc";?>
 
 <div class="container">
 		<article class="col-md-8">

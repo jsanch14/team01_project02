@@ -13,11 +13,18 @@
 			<h3>Who we are</h3>
 
 			<ul>
+				<li><b>Team 5</b></li>
 				<li>Moses Chen - Architect</li>
 				<li>Ming Hang Tam - Framework wrangler</li>
 				<li>Yichen Lu - Content master and interaction designer</li>
 				<li>Xingyi Li - CSS artist</li>
 				<li>Guanhong Chen - Javascript engineer</li>
+				<li><b>Team 1</b></li>
+				<li>Nick Heitsch - CSS artist</li>
+				<li>Davon Brown - Content Manager</li>
+				<li>Jorge Sanchez - Framework Wrangler</li>
+				<li> Connor Dent - JS</li>
+				<li>Stephn Lebowski - Architect</li>
 			</ul>
 
 			<h3>Technologies used</h3>
