@@ -10,6 +10,16 @@
 		<link rel="stylesheet" href="css/slider.css">
 		<link rel="stylesheet" href="css/fonts.css">
 		<link rel="stylesheet" href="css/styles.css">
+
+		<?php 
+		$var1 = basename($_SERVER["REQUEST_URI"], ".php");
+		$var2 = "colophon";
+		if(strcmp($var1,$var2)==0){
+		?>
+		<link rel="stylesheet" href="css/colophon.css">;
+		<?php } 
+		?>
+
 		<title><?php if (isset($currentTitle)) { echo $currentTitle; } ?><?php if (isset($separator)) { echo $separator; } ?><?php if (isset($parentTitle)) { echo $parentTitle; } ?></title>
 	</head>
 

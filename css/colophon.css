@@ -1,0 +1,11 @@
+body{
+	background: #222222 url(http://www.desktopimages.org/pictures/2014/0418/1/pokemon-pikachu-simple-background-wallpaper-463958.jpg);
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+a{
+	color: 	#222224;
+}
