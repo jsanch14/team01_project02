@@ -1,6 +1,54 @@
-<?php $parentTitle = "Pokémon Generations"; include "inc/top.inc";?>
-		
-		<?php include "inc/nav.inc";?>
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300&subset=latin,greek-ext' rel='stylesheet' type='text/css'>
+  <link href="resources/bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="resources/font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="css/styles.css" rel="stylesheet" />
+  <link href="scripts/jstiles/css/tl-style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/slider.css"/>
+    <link rel="stylesheet" href="css/fonts.css"/>
+
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="js/jstiles/css/tl-style.css" rel="stylesheet"/>
+    
+    <title><?php if (isset($currentTitle)) { echo $currentTitle; } ?><?php if (isset($separator)) { echo $separator; } ?><?php if (isset($parentTitle)) { echo $parentTitle; } ?></title>
+  </head>
+
+  <body data-spy="scroll" data-target="#side-nav-affix">
+  
+  
+<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+          <h1>
+            <a class="navbar-brand" href="./"><img class="navbar-brand" src="images/logo.png" alt="Pokémon"><?php echo $parentTitle;?></a>
+          </h1>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="gen_1-2.php">I-II</a></li>
+            <li><a href="gen_3-4.php">III-IV</a></li>
+            <li><a href="gen_5-7.php">V-VII</a></li>
+            <li><a href="colophon.php">Colophon</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
 		
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
@@ -90,60 +138,6 @@
         
   </div>
 
-<<<<<<< Updated upstream
-			<div class="cards">
-			<div class="card" id="g1">
-  				<div class="card-block">
-    				<h3 class="card-title">Generations I-II</h3>
-    				<h6 class="card-subtitle text-muted">The First Generations</h6>
-  				</div>
-  				<div class="card-block">
-    				<p class="card-text">The first generation of games introduced the basic game concepts of capturing, training, battling and trading Pokémon with both computer and human players.</p>
-    				<a class="card-link" href="gen_1-2.php">Read more ></a>
-  				</div>
-			</div>
-
-
-			<div class="card" id="g2">
-  				<div class="card-block">
-    				<h3 class="card-title">Generations III-IV</h3>
-    				<h6 class="card-subtitle text-muted">The New Age of Graphics</h6>
-  				</div>
-  				<div class="card-block">
-    				<p class="card-text">Both generations introduced new innovations to graphics design, as well as new features and additional Pokemon.</p>
-    				<a class="card-link" href="gen_3-4.php">Read more ></a>
-  				</div>
-			</div>
-
-			
-
-			<div class="card" id="g3">
-  				<div class="card-block">
-    				<h3 class="card-title">Generations V-VII</h3>
-    				<h6 class="card-subtitle text-muted">Expansion and a New Era</h6>
-  				</div>
-  				<div class="card-block">
-    				<p class="card-text">All three generations added additional Pokemon and took advantage of new technologies to expand the universe</p>
-    				<a class="card-link" href="gen_5-7.php">Read more ></a>
-  				</div>
-			</div>
-
-
-			
-			<div class="card" id="g4">
-  				<div class="card-block">
-    				<h3 class="card-title">Colophon</h3>
-    				<h6 class="card-subtitle text-muted">Who we are</h6>
-  				</div>
-  				<div class="card-block">
-    				<p class="card-text">Meet the design teams behind the website</p>
-    				<a class="card-link" href="colophon.php">Read more ></a>
-  				</div>
-			</div>
-
-			</div>
-=======
->>>>>>> Stashed changes
 
 		</article>
 
@@ -159,12 +153,60 @@
 
 		</aside>
 
-		<?php include "inc/footer.inc";?>
+<footer class="col-md-12">
+
+      <p>Copyright © Project 1 Team 7, CSC 174 Advanced Front-end Web Design and Development. All rights reserved.</p>
+
+    </footer>
 
 	</div><!--.container-->
-	
-	<?php include "inc/scripts.inc";?>
-	
+<script src="js/jquery-1.12.3.min.js"></script>
+  <script src="js/current_page_highlighter.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.mobile.custom.min.js"></script>
+    <script src="js/jstiles/jstiles.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/scripts.js"></script>
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery-1.12.3.min.js"></script>
+  <script src="js/slider.min.js"></script>
+  <script>
+    jQuery(function($) {
+      $('.slider').sss();
+    });
+  </script>
+  <script>
+  $(document).ready(function() {  
+       $("#myCarousel").swiperight(function() {  
+          $(this).carousel('prev');  
+          });  
+       $("#myCarousel").swipeleft(function() {  
+          $(this).carousel('next');  
+     });  
+  });  
+</script>
+
+<script>
+    $(document).on('tl.tilecontent.appended', function(e, data) {
+      console.log('Tiles appended on: ' + data);
+    });
+    $(document).on('tl.template.built', function(e, data) {
+      console.log('Templates built on: ' + data);
+    });
+  </script>
+  <script src="scripts/jquery-1.11.2.min.js"></script>
+  <script src="resources/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+  <script src="scripts/jstiles/jstiles.js"></script>
+  <script src="scripts/jquery.easing.1.3.js"></script>
+  <script src="scripts/scripts.js"></script>
+  <script>
+    $(document).on('tl.tilecontent.appended', function(e, data) {
+      console.log('Tiles appended on: ' + data);
+    });
+    $(document).on('tl.template.built', function(e, data) {
+      console.log('Templates built on: ' + data);
+    });
+  </script>
 
 	
 	</body>
