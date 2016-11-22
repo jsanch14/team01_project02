@@ -2,95 +2,18 @@
 		
 		<?php include "inc/nav.inc";?>
 		
-		<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="images/poke1.png" alt="poke">
-   
-    </div>
-
-    <div class="item">
-      <img src="images/poke2.png" alt="poke">
-     
-    </div>
-
-    <div class="item">
-      <img src="images/poke3.png" alt="poke">
-      
-
-    
-  </div>
-</div>
-  <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-
-<div class="container">
+		<div class="slider">
+			<img class="img-responsive" src="images/poke1.png" alt="poke1">
+			<img class="img-responsive" src="images/poke2.png" alt="poke2">
+			<img class="img-responsive" src="images/poke3.png" alt="poke3">
+		</div>
 
 		<article class="col-md-8">
 
 			<h2>Overview</h2>
 			
 			<p>All of the licensed Pokémon properties overseen by The Pokémon Company are divided roughly by generation. These generations are roughly chronological divisions by release; when an official sequel in the main role-playing game series is released that features new Pokémon, characters, and gameplay concepts, that sequel is considered the start of a new generation of the franchise. The main games and their spin-offs, the anime, manga and trading card game are all updated with the new Pokémon properties each time a new generation begins. The franchise began its sixth generation with Pokémon X and Y, which were released worldwide on October 12, 2013.</p>
-				<div id="main-container" class="col-xs-12">
-  
-    <div id="tiles-container" class="sampleClass">
-        
-      <div class="tl-page" data-tl-template="tempA">
-        
-        <div id="tileD">
-          <h2>Generation I-II</h2>
-          <span class="content-hidden">
-            <p>Take a look at Generations I and II</p>
-          </span>
-        </div>
-        <div id="tileE">
-          <h2>Generations III-IV</h2>
-          <span class="content-hidden content-hidden-small">
-            <p>
-              aaa
-            </p>
-          </span>
-        </div>
-        
-        <div id="tileH">
-          <h2>Generation V-VII</h2>
-          <span class="content-hidden"><p>To check some stuff on Generations V-VII</p>
-          </span>
-        </div>
-        <div id="tileI">
-          <h2>Colophon</h2>
-          <span class="content-hidden">
-            <p><a href="colophon.php">Some of our responsibilities include....</a></p>
-            
-          </span>
-        </div>
-        <div id="tileJ"></div>
-        
-      </div> 
-      
-      
-  
-    </div>
-        
-  </div>
 
-<<<<<<< Updated upstream
 			<div class="cards">
 			<div class="card" id="g1">
   				<div class="card-block">
@@ -142,8 +65,6 @@
 			</div>
 
 			</div>
-=======
->>>>>>> Stashed changes
 
 		</article>
 
@@ -164,8 +85,12 @@
 	</div><!--.container-->
 	
 	<?php include "inc/scripts.inc";?>
-	
-
+	<script src="js/slider.min.js"></script>
+	<script>
+		jQuery(function($) {
+			$('.slider').sss();
+		});
+	</script>
 	
 	</body>
 
