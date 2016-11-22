@@ -280,3 +280,24 @@ Bootstrap CSS for Cards
 .card-link {
 	vertical-align: bottom;
 }
+
+
+/*********************************************
+Custom Generation Pages Layout Code 
+*********************************************/
+
+.gen-block{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.gen-img{
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.gen-content{
+	width: 40%;
+	display: inline-block;
+}
